@@ -60,7 +60,7 @@ import { NgxPrintModule } from 'ngx-print';
 //import { ScanFolioCitaComponent } from './scan-folio-cita/scan-folio-cita.component';
 //import { ZXingScannerModule } from '@zxing/ngx-scanner';
 import { TestComponent } from './components/test/test.component';
-import { BarcodeScannerLivestreamModule } from "ngx-barcode-scanner";
+// import { BarcodeScannerLivestreamModule } from "ngx-barcode-scanner";
 import { AutofocusDirective } from './directives/autofocus.directive';
 import { Ng2SearchPipeModule} from 'ng2-search-filter';
 import { NgxPrinterModule } from 'ngx-printer';
@@ -149,7 +149,7 @@ const materialModules = [
     NgxPaginationModule,
     NgxPrintModule,
     // DataTablesModule,
-    BarcodeScannerLivestreamModule,
+    // BarcodeScannerLivestreamModule,
     Ng2SearchPipeModule,
     NgxPrinterModule.forRoot({printOpenWindow: false}),
     //NgxPrinterModule.forRoot({printOpenWindow: true}),

@@ -3,7 +3,7 @@ import { Component, OnInit, ViewChild, AfterViewInit, ChangeDetectorRef} from '@
 //import { environment } from '../../environments/environment';
 
 import { Produit } from 'src/app/models/produit.model';
-import { BarcodeScannerLivestreamComponent } from "ngx-barcode-scanner";
+// import { BarcodeScannerLivestreamComponent } from "ngx-barcode-scanner";
 
 
 
